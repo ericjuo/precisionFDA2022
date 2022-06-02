@@ -2,7 +2,13 @@
 
 Written by: Eric Juo
 First created: 2022/06/01
-Latest modified: 2022/06/01
+Latest modified: 2022/06/02
+
+## Run pipeline
+```
+snakemake --cores 16 --use-singularity
+```
+
 
 
 ## Package installation
@@ -31,5 +37,9 @@ conda activate bioinfo
 ```
 Install singularity (docker image runner)
 ```
-mamba install singularity
+mamba install -c conda-forge singularity
+```
+Install fastqc
+```
+mamba install fastqc
 ```
