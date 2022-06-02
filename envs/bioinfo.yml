@@ -1,0 +1,6 @@
+name: bioinfo
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+prefix: /home/azureuser/bin/miniconda3/envs/bioinfo/envs/bioinfo
